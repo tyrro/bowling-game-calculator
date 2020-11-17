@@ -23,7 +23,7 @@ const Game = () => {
           id="gameInputString"
           onChange={event => setInputString(event.target.value)}
         />
-        <div>Total Score: {totalScore}</div>
+        <div className="total_score">Total Score: {totalScore}</div>
       </div>
 
       <button type="submit" className="btn btn-primary btn-sm">
