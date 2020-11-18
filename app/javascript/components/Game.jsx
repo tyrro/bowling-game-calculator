@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from 'react';
 
 import httpClient from '../shared/httpClient';
@@ -17,17 +18,17 @@ const Game = () => {
   return (
     <form onSubmit={event => handleFormSubmission(event)}>
       <div className="form-group">
-        <label htmlFor="gameInputString">Input String</label>
+        <label htmlFor="inputString">{I18n.t('input_string')}</label>
         <input
           className="form-control"
-          id="gameInputString"
+          id="inputString"
           onChange={event => setInputString(event.target.value)}
         />
-        <div>Total Score: {totalScore}</div>
+        <div className="total_score">Total Score: {totalScore}</div>
       </div>
 
       <button type="submit" className="btn btn-primary btn-sm">
-        Calculate
+        {I18n.t('calculate')}
       </button>
     </form>
   );

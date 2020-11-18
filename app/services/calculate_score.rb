@@ -11,7 +11,7 @@ class CalculateScore
 
   def call
     calculate_bonus_balls
-    save_knocked_pins
+    save_knocked_pins_as_scores
     calculate_total_score
   end
 
@@ -29,7 +29,7 @@ class CalculateScore
                    end
   end
 
-  def save_knocked_pins
+  def save_knocked_pins_as_scores
     @roll_sequence.each_char.with_index do |throw, index|
       case throw
       when 'X'
