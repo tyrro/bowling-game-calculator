@@ -1,6 +1,9 @@
-# E Learning System
+# Bowling Game Score Calculator
 
-//TODO Description
+This is a sample app to calculate total score of a bowling game. The bowling sequence is given as a sting
+in the frontend.
+
+Description
 
 The backend of this project is developed in Rails and the Frontend part in React. To run this project in
 the local machine, we have to install both `Rails` and `Node`.
@@ -9,7 +12,7 @@ the local machine, we have to install both `Rails` and `Node`.
 
 - Clone the repository
   ```bash
-  git@github.com:rajibds/e-learning-system.git
+  git@github.com:rajibds/bowling-game-calculator.git
   ```
 - Homebrew:
   ```bash
@@ -63,9 +66,7 @@ the local machine, we have to install both `Rails` and `Node`.
 - Database initialization
 
   ```bash
-  rails db:create
-  rails db:schema:load
-  rails db:seed
+  rails db:prepare
   ```
 
 - Foreman installation
