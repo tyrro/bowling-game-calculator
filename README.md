@@ -3,8 +3,6 @@
 This is a sample app to calculate total score of a bowling game. The bowling sequence is given as a sting
 in the frontend.
 
-Description
-
 The backend of this project is developed in Rails and the Frontend part in React. To run this project in
 the local machine, we have to install both `Rails` and `Node`.
 
