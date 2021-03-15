@@ -1,4 +1,5 @@
 # Bowling Game Score Calculator
+https://bowling-score-calulate.herokuapp.com/
 
 This is a sample app to calculate total score of a bowling game. The bowling sequence is given as a sting
 in the frontend.
